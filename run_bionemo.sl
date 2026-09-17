@@ -4,7 +4,7 @@
 #SBATCH --mem           20GB
 #SBATCH --cpus-per-task 8
 #SBATCH --account       uoa04517
-#SBATCH --gres          gpu:pro_6000:1
+#SBATCH --gres          gpu:A100:1
 #SBATCH --job-name      bionemo
 #SBATCH --output        bionemo.log
 
